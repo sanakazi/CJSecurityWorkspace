@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tncbackground"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Terms and Condition"
+        android:textColor="@color/sky_blue"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/title_bottom_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="85"
+        android:orientation="vertical"
+        android:weightSum="100" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:gravity="center_horizontal|bottom"
+            android:orientation="horizontal"
+            android:weightSum="100" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="70"
+                android:src="@drawable/inner_logo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="70"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="100" >
+
+            <ScrollView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="80" >
+
+                <TextView
+                    android:id="@+id/edRName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/terms"
+                    android:textColor="@color/black"
+                    android:gravity="center"/>
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="65dp"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/chkTerms"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="5dp"
+                android:text="I have read and agree to the terms and conditions."
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:visibility="visible" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/sky_blue"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom">
+
+        <TextView
+            android:id="@+id/txtTAgree"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:gravity="center_horizontal"
+            android:text="Accept Terms &amp; Conditions"
+            android:textColor="@color/White"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

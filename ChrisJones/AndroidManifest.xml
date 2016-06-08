@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.callndata.chrisjones"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+    
+    <uses-feature
+	  android:name="android.hardware.camera"
+	  android:required="false"/>
+	<uses-feature
+	  android:name="android.hardware.camera.autofocus"
+	  android:required="false"/>
+	
+	<uses-permission android:name="android.permission.CAMERA"/>
+	<uses-permission android:name="android.permission.VIBRATE"/>
+
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.callndata.chrisjones.SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.callndata.chrisjones.Login"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.callndata.chrisjones.SignUp"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.callndata.chrisjones.AddAccount"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.callndata.chrisjones.Terms"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.callndata.chrisjones.Home"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.callndata.chrisjones.Confirm"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.callndata.chrisjones.SubAccounts"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <receiver
+            android:name="com.callndata.chrisjones.SMSReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.callndata.sync.NetworkChangeReceiver"
+            android:label="NetworkChangeReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" >
+                    <action android:name="android.net.wifi.WIFI_STATE_CHANGED" >
+                    </action>
+                </action>
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.callndata.sync.SyncService" />
+        
+        <service
+		  android:name="com.paypal.android.sdk.payments.PayPalService"
+		  android:exported="false"/>
+		
+		<activity
+		  android:name="com.paypal.android.sdk.payments.PaymentActivity"/>
+		<activity
+		  android:name="com.paypal.android.sdk.payments.LoginActivity"/>
+		<activity
+		  android:name="com.paypal.android.sdk.payments.PaymentMethodActivity"/>
+		<activity
+		  android:name="com.paypal.android.sdk.payments.PaymentConfirmActivity"/>
+		<activity
+		  android:name="com.paypal.android.sdk.payments.PaymentCompletedActivity"/>
+		<activity
+		  android:name="io.card.payment.CardIOActivity"
+		  android:configChanges="keyboardHidden|orientation"/>
+		<activity
+		  android:name="io.card.payment.DataEntryActivity"/>
+        
+        
+    </application>
+
+</manifest>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CJ Security</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="optional">Optional</string>
+    <string name="emergency_contact_one">Emergency Contact 1</string>
+    <string name="emergency_contact_two">Emergency Contact 2</string>
+    <string name="special_condition">Do you have any special conditions you\'d like to report?eg. Allergies, Diabetes etc</string>
+    <string name="name">Name</string>
+    <string name="contact">Contact Number</string>
+    <string name="relation">Relation</string>
+    
+<!--     <string name="terms">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        
+        /n/n
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        
+        /n/n
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        
+        /n/n
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        
+        /n/n
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        
+        /n/n
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        
+        /n/n
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    </string> -->
+    
+    <string name="terms"><B>CJ SECURITY APP END USER LICENSE AGREEMENT</B>
+        \n\n TERMS and CONDITIONS OF USE:\n\n
+
+IMPORTANT: Before using the “CJ SECURITY App” on your smart device, iPhone or Android, and/or the related email, text, website or CJ SECURITY Commands on a web-enabled device, such as a computer or tablet, please read these Terms of Use carefully.\n
+CJ Security App P/L and its affiliates, including its third party monitoring company(ies), are collectively referred to as the “CJ SECURITY App” or the “Company”.\n
+CJ Security Commands are the CJ SECURITY App icons on your device, capable of transmitting a text message and your GPS coordinates to a registered third party monitoring company.
+BY USING THE CJ SECURITY APP, CJ SECURITY APP COMMANDS AND/OR RELATED EMAIL, TEXTS, AND/OR WEB SITE, YOU ARE CONSENTING TO BE BOUND BY THIS END-USER LICENSE AGREEMENT, THE TERMS OF USE, AND THE PRIVACY POLICY.\n
+IF YOU DO NOT AGREE TO THESE TERMS OF USE OR THE PRIVACY POLICY, OR USE UNDER VIOLATION OF NATIONAL, STATE OR LOCAL LAWS, DO NOT OPERATE THE CJ SECURITY APP, CJ SECURITY APP COMMANDS OR THE RELATED SERVICES.\n\n
+
+This document provides the Terms of Use for the CJ SECURITY App, CJ SECURITY App Commands and its related messaging, website and services. By using any piece of the CJ SECURITY App or the services in any way, you are agreeing to comply with these Terms of Use. In addition, when using the services, you agree to abide by any applicable national, state and local laws, and posted guidelines or notices which may change from time to time. CJ SECURITY App may modify these Terms of Use at any time by posting the amended terms. Should you object to any term or condition of these Terms of Use, any guidelines, or any subsequent modifications thereto or become dissatisfied with any of the CJ SECURITY App services or functions, your only recourse is to immediately discontinue use of Emergency App. This agreement defines the terms and conditions that govern your use of Emergency App’s products and services.\n\n
+
+IMPORTANT: THE EMERGENCY APP IS NOT A REPLACEMENT FOR 000. The CJ SECURITY App, including the third party monitoring service, is not a replacement for 000. Even if your Mobile Device and the CJ SECURITY App have connectivity, CJ SECURITY App does not guarantee and has no control over whether your messages will be delivered real-time, or responded to by the emergency responder. Nor does CJ SECURITY App guarantee or have any control over the efficacy of location finder being activated and GPS coordinates transmitted on your Mobile Device, or the software used to convert this information into your physical location.\n\n
+
+1. YOUR INFORMATION\n
+When completing the profile section for your CJ SECURITY App on the CJ SECURITY App System, you will be asked to provide certain personal information, including third party contact information. The information you provide on the CJ SECURITY App System is retained by CJ SECURITY App P/L and is governed by our Privacy Policy. CJ SECURITY App DOES NOT sell or provide your data to any third party vendors. Information is used solely by CJ SECURITY App, our monitoring partners and first responder agencies (such as police, fire and ambulance) as needed. Any information inserted by you is at the risk that this information may be viewed on your Mobile Device, so you are responsible for keeping your Mobile Device safe and secure and out of the reach of others.\n\n
+
+2. LICENSE GRANT\n
+Subject to the terms and conditions of these Terms of Use, upon payment of all applicable purchase and/or license fees required by CJ SECURITY App, CJ SECURITY App grants you a non-exclusive, non-transferable, non-commercial license, to download, install, and use the CJ SECURITY App on an appropriate iPhone or Android phone that you own or control (each a “Mobile Device”). The terms of this license will govern any upgrade provided by CJ SECURITY App that replaces and/or supplements the original CJ SECURITY App, unless such upgrade is accompanied by a separate license, in which case the terms of that license will govern.\n\n
+
+3. LICENSE RESTRICTIONS\n
+Your Mobile Device Only. This license is for the use of the CJ SECURITY App on a single Mobile Device owned or controlled by you. This license does not allow you to use the CJ SECURITY App on any Mobile Device that you do not own or control, and you may not distribute or make the CJ SECURITY App available over a network where it could be used by multiple devices at the same time. You may not rent, lease, lend, sell, redistribute, or sublicense the CJ SECURITY App.\n
+Limitations on Reverse Engineering, Decompilation and Disassembly. Except as expressly permitted by this license, you may not copy, decompile, reverse engineer, disassemble, attempt to derive the source code of, modify, or create derivative works of the CJ SECURITY App, any updates, or any part thereof. Any attempt to do so is a violation of the rights of CJ SECURITY App and its licensors. If you breach this restriction, you may be subject to prosecution and liable for damages.\n
+Charges for Upgrades. CJ SECURITY App reserves the right to charge for any significant upgrades, updated versions, patches and bug fixes. CJ SECURITY App also reserves the right to require payment of periodic or annual fees for use by you of the CJ SECURITY App. CJ SECURITY App will notify you in the event any such fee is to be imposed.\n
+A separate “Monitoring Agreement” documents the terms and conditions of the services provided by the registered third party monitoring service, including but not limited to the timeframe for the activation of your CJ SECURITY App Commands following the successful purchase, installation and registration of your CJ SECURITY App. Details are available from info@cjsecurityapp.com.au\n\n
+
+4. TERMS AND CONDITIONS\n
+The following Terms and Conditions shall apply for the use of the CJ SECURITY App (including all related services, components and features), CJ SECURITY App Commands, and the related web site(s):
+Installation and Activation
+You understand and acknowledge that your purchase, registration and successful installation of the CJ SECURITY App is your responsibility, and is not within the control of the CJ SECURITY App. You further understand and acknowledge that CJ SECURITY App P/L has a separate Monitoring Agreement with a third party monitoring company(ies) for the activation of your CJ SECURITY App Commands, and that said third party monitoring company(ies) are solely responsible for the activation your CJ SECURITY App Commands, as agreed to and in a timely fashion.\n
+You Agree Not to Use the CJ SECURITY App:\n
+(1) in a manner that may be viewed as unlawful, harmful, threatening, abusive, harassing, tortuous, defamatory, vulgar, obscene, libellous, invasive of another’s privacy, hateful, infringing, or racially, ethnically or otherwise objectionable;\n
+(2) to interfere with or disrupt the CJ SECURITY App service, servers or networks, or disobey any requirements, procedures, policies or regulations of networks connected to the CJ SECURITY App Service;\n
+(3) to intentionally or unintentionally violate any applicable national, state, local, national or international law; and\n
+(4) to play pranks on, falsely report events, harass or otherwise mislead any recipient or third party monitoring service or emergency responder.\n
+Responsibility for “Content” Transmitted \n
+You acknowledge that you are aware of, and will adhere to all applicable local, state, national and international laws; that your device settings to transmit video, pictures, and/or audio do not violate such laws; the content sent to or from your mobile phone or device, is the sole responsibility of the person, individual or the organization, from which such Content was transmitted and/or requested. You understand that all videos, images, locations, movements, messages, texts, files or any other materials posted on, transmitted through, or linked from the CJ SECURITY App, are the sole responsibility of the person from whom such Content originated.\n\n
+
+Dealings with Responders\n
+Your communications through the CJ SECURITY App Service are solely between you and the third party monitoring service [direct recipient] and any emergency services contacted by the third party monitoring service on your behalf [indirect recipient(s)]. You agree that the Company, its affiliates and/or third-party monitoring company(ies) are not insurers and shall not be responsible or liable for any loss, personal harm, or damage of any sort incurred as the result of any such communications, the delivery or failure thereof, or any response (including response time) or lack thereof by the recipients or emergency responders.\n\n
+
+Links to Service Providers\n
+The third party monitoring service may provide links to certain service providers, such as emergency responders, when your Mobile Device appears within their geographic zone. Because the Company does not have control over all service providers necessary to the CJ SECURITY App and the connectivity between your Mobile Device and/or the Company servers and the service providers, you acknowledge and agree that the Company is not responsible for availability of and communications with all such service providers.\n\n
+
+Respondent’s Fees and Charges\n
+You acknowledge and agree that emergency service providers (such as police, ambulance and fire services) may, under national, state or local laws, charge a fee for their services. You further acknowledge and agree that you are solely responsible for any such fees and the Company shall not be responsible or liable, directly or indirectly, for any fees levied by service providers.\n\n
+
+Personal Information Communication\n
+You agree that the Emergency App Commands allow for, upon activation, automatic text messaging and the provision of your GPS coordinates to a third party monitoring service, as well as emergency responders (to the extent applicable). You also agree that, any time following the activation of a CJ SECURITY App Command, the Company may access and provide to emergency responders, the personal information you provided on your registration. The provision of this information will be limited to facilitating an emergency response and/or invoicing by the emergency respondent/s.\n\n
+
+Personal Information Transmissions \n
+You understand and agree that the technical processing and transmission of the CJ SECURITY App Commands, including your provided information, may involve (a) transmissions over various networks; and (b) changes to conform and adapt to technical requirements of connecting networks or devices. You also understand that some or all of the transmissions may not be encrypted or protected.\n
+Children under eighteen (18) years of age are not permitted to purchase, register, install or use the CJ SECURITY App without permission from their parents or guardians. To facilitate access by children under the age of eighteen (18) years old, a parent or guardian is required to be the registered owner of the CJ SECURITY App. The registered owner understands and accepts full responsibility for the use of the CJ SECURITY App by children under eighteen years of age, including but not limited to any fees or charges levied by emergency respondents (such as police, ambulance or fire services).\n\n
+
+Equipment\n
+You must provide the Mobile Device and wireless connections that you will need to use the CJ SECURITY App at your own expense. The Company does not guarantee that the CJ SECURITY App can be accessed through or will be compatible with all Mobile Devices or wireless service plans. The Company does not guarantee that the CJ SECURITY App is available in all geographic locations. You acknowledge that when you use the CJ SECURITY App, your wireless carrier may charge you standard fees for data, messaging, and other wireless access. It is your responsibility to check with your carrier to verify whether there are any such fees that may apply to you. You are solely responsible for any costs you incur to access the CJ SECURITY App through your Mobile Device.\n\n
+
+Access from or Delivery to Mobile Network \n
+You understand and acknowledge that network services, including but not limited to mobile network services, are outside of the control and influence of the Company, and that the Company may not be able to assist in resolution of such problems. You agree that the Company and its third-party monitoring company(ies), are not responsible for your use of the CJ SECURITY App outside of the servers of the Company and its third-party monitoring company(ies), and are not responsible or liable for problems arising in the network outside of its/their respective servers. The Company’s sole responsibility is to use commercially reasonable efforts to maintain the servers and the software for providing the CJ SECURITY App and, if applicable to your License, to use commercially reasonable efforts to provide commercially reasonable monitoring as part of your service.\n\n
+
+Physical Location Information \n
+You understand and acknowledge that the CJ SECURITY App Commands use the GPS coordinates provided by your Mobile Device, and that you are responsible for ensuring that this function is active on your Mobile Device. CJ SECURITY App P/L does not guarantee or have any control over your Mobile Device’s location finder being activated or accurate, or the conversion of GPS coordinates into a physical location by third party monitoring services and respondents.\n
+Network, Mobile Plan and Mobile Device Limitations
+You agree and accept that your use of the CJ SECURITY App Commands may be limited by your network operator or by the capabilities or capacities of your mobile plan or Mobile Device. The text messaging and location services are only available in Australia, and only if your mobile plan provides for location services, text messages and the required mobile coverage. You are responsible for checking to see if your mobile plan and Mobile Device include location services and text messaging.\n\n
+
+5. RECIPIENTS\n
+If you are the recipient of an incident reported by any user of the CJ SECURITY App and/or the third party monitoring service, you are solely responsible for whether and how you review, respond to or otherwise utilise any data received from such user through the CJ SECURITY App. You acknowledge and agree that CJ SECURITY App P/L is not responsible for the timing, accuracy or veracity of any content you receive through the CJ SECURITY App. You may view the content and data in any incident report through the CJ SECURITY App and respond to the applicable user and/or incident. CJ SECURITY App P/L does not grant you any license or right to download, distribute, publish or otherwise utilise the content or data you receive or access through the CJ SECURITY App. If you desire to do anything with the data or content you receive through the CJ SECURITY App other than reasonable viewing by you thereof through the CJ SECURITY App website in connection with the incident, you are solely responsible for obtaining any necessary rights from the applicable user and any third parties included in the applicable recordings. In any event, you are also subject to all other terms and conditions of these Terms of Use.\n\n
+
+6. DISCLAIMER OF WARRANTIES.\n
+You expressly acknowledge and agree that use of the CJ SECURITY App is at your sole risk and that the entire risk as to satisfactory quality, performance, accuracy, and effort is with you. To the maximum extent permitted by applicable law, the CJ SECURITY App and any services performed or provided by the CJ SECURITY App and/or CJ SECURITY App Commands are provided “as is” and “as available,” with all faults and without warranty of any kind, and CJ SECURITY App P/L hereby disclaims all warranties and conditions with respect to the CJ SECURITY App and any CJ SECURITY App services, whether express, implied, or statutory, including, but not limited to, the implied warranties and/or conditions of merchantability, of satisfactory quality, of fitness for a particular purpose, of accuracy, of quiet enjoyment, and of non-infringement of third party rights.\n
+You understand and agree that there is no guarantee that the CJ SECURITY App will function as intended, that all the functionally or any functionality will be operational at all times. CJ SECURITY App P/L disclaims any liability for system downtime, operational errors, loss of data, delivery errors, transmission losses, or lack of service. CJ SECURITY App accepts no liability of any kind for the consequences of using the CJ SECURITY App, the failure of the delivery of data to the third party monitoring service, or the failure of the CJ SECURITY App to produce any intended benefits. No oral or written information or advice given by CJ SECURITY App P/L or its directors, authorised agents, representatives, employees or service providers shall create a warranty.\n\n
+
+7. INDEMNIFICATION\n
+You agree to indemnify and hold CJ SECURITY App P/L, its directors, authorised agents, representatives, employees and service providers harmless from any and all claims, losses, demands, fines penalties, costs, and expenses including reasonable attorney fees and court costs, made by any third party due to or arising out of, or your violation of any rights of another made by or on behalf of you or any third party in connection with or arising out of your download, access, and/or use of the CJ SECURITY App, including any content or services provided therein, any information transmitted during your use of the CJ SECURITY App, including location information and text messages, your violation of any term or condition of the Terms of Use, your breach of any of the representations and warranties herein, and your violation of applicable laws or any rights of another person or entity. You also agree to indemnify CJ SECURITY App P/L against any claims made by the third party monitoring service and emergency respondents.\n\n
+
+8. LIMITATIONS OF LIABILITY\n
+To the fullest extent permitted by law, in no event shall CJ SECURITY App P/L, its directors, authorised agents, representatives, employees, affiliates or its third-party monitoring company(ies) be liable for personal injury, death, or any direct, indirect, incidental, special, consequential or exemplary damages whatsoever, including, without limitation, damages for loss of profits, loss of data, business interruption, or any other commercial damages or losses, arising out of or related to your use or inability to use the CJ SECURITY App, the Company’s servers, any aspect of the CJ SECURITY App software or services, or the interruption, suspension, modification, alteration, or termination of the Company’s services. In each case, however caused, regardless of the theory of liability (contract, tort, or otherwise) and even if CJ SECURITY App P/L has been advised of the possibility of such damages, these limitations shall apply to the fullest extent permitted by law.\n
+You acknowledge and agree that you are solely responsible for all content stored on or retrieved from your Mobile Device and that it is your sole responsibility to keep the information on your CJ SECURITY App registration up to date, accurate, and complete. CJ SECURITY App will not be held liable for your failure to make changes to applicable information.\n
+You hereby waive any and all claims or causes of action, arising from or relating to the CJ SECURITY App and its use.\n\n
+
+9. TERMINATION\n
+The CJ SECURITY App license granted to you will continue until terminated as provided in this section. Without prejudice to any other rights, your license rights will terminate automatically if you violate any provision herein, or if CJ SECURITY App sends a written (including email or text message) notice of termination to you directly. You may terminate or cancel the license by discontinuing use of the CJ SECURITY App at any time. In the event of termination, for any reason, you shall cease all use of the CJ SECURITY App, uninstall the CJ SECURITY App from each Mobile Device in which you have installed it, and permanently delete all copies, full or partial, of the CJ SECURITY App. CJ SECURITY App P/L reserves the right to terminate the license to a specific version of the CJ SECURITY App upon issuance of a new version. \nExcept for the license granted in Section 2 and as otherwise expressly provided herein, all sections of these Terms of Use that by their nature should survive termination will survive termination, including, without limitation, warranty disclaimers and limitations of liability.\n\n
+
+10. NO CONTINUING OBLIGATION\n
+CJ SECURITY App is not obligated by these Terms of Use to continue making the CJ SECURITY App available for any period of time beyond the licence period.\n\n
+
+11. PRODUCT QUESTIONS, COMMENTS, CLAIMS, AND CONTACT INFORMATION. CJ SECURITY App P/L is responsible for addressing any questions or comments relating to the CJ SECURITY App and/or your possession or use of the CJ SECURITY App. If you have any comments or questions, please contact CJ SECURITY App at info@cjsecurityapp.com.au\n\n
+
+12. ENTIRE AGREEMENT; SEVERABILITY\n
+This agreement constitutes and contains the entire agreement between the parties with respect to the subject matter hereof and supersedes any prior oral or written agreements, except that these Terms of Use shall coexist with, and shall not supersede, the Monitoring Agreement and the Apple and Android Terms of Service. To the extent that the provisions of this agreement conflict with the provisions of the Terms of Service, the conflicting provisions in this agreement shall govern. These Terms of Use and the relationship between you and CJ SECURITY App P/L shall be governed by Australian law without regard to its conflict of law provisions. You and CJ SECURITY App P/L agree to submit to the personal and exclusive jurisdiction of Australian Courts. The failure of CJ SECURITY App P/L to exercise or enforce any right or provision of the Terms of Use shall not constitute a waiver of such right or provision. If any provision of the Terms of Use is found by a Court of competent jurisdiction to be invalid, the parties nevertheless agree that the Court should endeavour to give effect to the parties’ intentions as reflected in the provision, and the other provisions of the Terms of Use remain in full force and effect. You agree that regardless of any statute or law to the contrary, any claim or cause of action arising out of or related to use of the CJ SECURITY App, the CJ SECURITY App Commands or the Terms of Use must be filed within one (1) year after such claim or cause of action arose or be forever barred.
+</string>
+    
+    
+    <string name="fire_alert">\nYou will receive a call back to confirm your request. If there is no answer, the service you have requested will be dispatched to your location immediately. Please note that some emergency services may be chargeable of which you may be personally liable for any fees. Fines may also be imposed for false or misleading reports.</string>
+	<string name="duress_alert">\nIs Your Life in Immediate Danger?\nThe police will be dispatched to your location immediately without a call back confirmation. False or misleading reports are an offence which may also carry heavy fines.</string>
+	
+</resources>

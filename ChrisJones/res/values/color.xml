@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="White">#FFFFFF</color>
+    <color name="sky_blue">#00A7EB</color>
+    <color name="black">#000000</color>
+    <color name="divider">#D0D5D8</color>
+    <color name="nodatafound_bg">#E6E6EA</color>
+    <color name="text_blue">#007BFF</color>
+    <color name="line">#D0D5D8</color>
+    <color name="battleship_grey">#848482</color>
+    
+</resources>

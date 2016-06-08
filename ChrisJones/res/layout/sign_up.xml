@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/lblRegTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Registration Form"
+        android:textColor="@color/sky_blue"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblRegTitle"
+        android:background="@drawable/title_bottom_line" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="20dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:weightSum="100" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:gravity="center_horizontal|bottom"
+                android:orientation="horizontal"
+                android:weightSum="100" >
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="70"
+                    android:src="@drawable/inner_logo" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="80"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/edRCustomerId"
+                    android:layout_width="260dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/textbox_without_hover"
+                    android:hint="Agent Number"
+                    android:inputType="text"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/edRName"
+                    android:layout_width="260dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/textbox_without_hover"
+                    android:hint="Full Name"
+                    android:inputType="text"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/edRStreet"
+                    android:layout_width="260dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/textbox_without_hover"
+                    android:hint="Street"
+                    android:inputType="text"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/edRCity"
+                    android:layout_width="260dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/textbox_without_hover"
+                    android:hint="Town / City"
+                    android:inputType="text"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/edRZipcode"
+                    android:layout_width="260dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/textbox_without_hover"
+                    android:hint="Post Code"
+                    android:inputType="numberSigned"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/edRPhone"
+                    android:layout_width="260dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/textbox_without_hover"
+                    android:hint="Phone No."
+                    android:inputType="numberSigned"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/edRMail"
+                    android:layout_width="260dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/textbox_without_hover"
+                    android:hint="Email ID"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/edRPassword"
+                    android:layout_width="260dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/textbox_without_hover"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/black" />
+                
+                
+                <TextView 
+                    android:id="@+id/sign_up_optional_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:text="@string/optional"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@android:color/black"/>
+                
+                 <TextView 
+                    android:id="@+id/sign_up_emergency_contact_one_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/emergency_contact_one"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@android:color/black"/>
+                 
+                 <EditText
+                    android:id="@+id/sign_up_emergency_contact_one_name"
+                    android:layout_width="260dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/textbox_without_hover"
+                    android:hint="@string/name"
+                    android:inputType="text"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/black" />
+                 
+                 <EditText
+                    android:id="@+id/sign_up_emergency_contact_one_contact"
+                    android:layout_width="260dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/textbox_without_hover"
+                    android:hint="@string/contact"
+                    android:inputType="phone"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/black" />
+                 
+                 <EditText
+                    android:id="@+id/sign_up_emergency_contact_one_relation"
+                    android:layout_width="260dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/textbox_without_hover"
+                    android:hint="@string/relation"
+                    android:inputType="text"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/black" />
+            
+                 <TextView 
+                    android:id="@+id/sign_up_emergency_contact_two_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/emergency_contact_two"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@android:color/black"/>
+                 
+                 <EditText
+                    android:id="@+id/sign_up_emergency_contact_two_name"
+                    android:layout_width="260dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/textbox_without_hover"
+                    android:hint="@string/name"
+                    android:inputType="text"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/black" />
+                 
+                 <EditText
+                    android:id="@+id/sign_up_emergency_contact_two_contact"
+                    android:layout_width="260dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/textbox_without_hover"
+                    android:hint="@string/contact"
+                    android:inputType="phone"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/black" />
+                 
+                 <EditText
+                    android:id="@+id/sign_up_emergency_contact_two_relation"
+                    android:layout_width="260dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/textbox_without_hover"
+                    android:hint="@string/relation"
+                    android:inputType="text"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/black" />
+                 
+                 <TextView 
+                    android:id="@+id/sign_up_special_condition_label"
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/special_condition"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@android:color/black"/>
+                 
+                <EditText
+                    android:id="@+id/sign_up_special_condition"
+                    android:layout_width="260dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/textbox_without_hover"
+                    android:inputType="text"
+                    android:lines="8" 
+   					android:minLines="6" 
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="Select Service"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" 
+                    android:visibility="gone"/>
+
+                <LinearLayout
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal" >
+
+                    <RadioGroup
+                        android:id="@+id/radioServiceType"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:weightSum="100" >
+
+                        <RadioButton
+                            android:id="@+id/serviceFree"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="50"
+                            android:checked="true"
+                            android:text="Home Version (free)"
+                            android:textColor="@color/black"
+                            android:visibility="gone"/>
+
+                        <RadioButton
+                            android:id="@+id/servicePaid"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone"
+                            android:layout_weight="50"
+                            android:text="Pro Version (paid)"
+                            android:textColor="@color/black"
+                            android:checked="true" />
+                    </RadioGroup>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnSignup"
+                    android:layout_width="260dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/black_button"
+                    android:text="Register"
+                    android:textColor="@color/White"
+                    android:textSize="15dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/sky_blue" >
+        
+            <TextView
+		        android:id="@+id/txtRTerms"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_horizontal"
+		        android:paddingBottom="10dp"
+		        android:paddingTop="10dp"
+		        android:text="Terms &amp; Conditions"
+		        android:textColor="@color/White" />
+            
+            
+    </RelativeLayout>
+
+</RelativeLayout>
